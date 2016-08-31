@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>DjangoCon AU 2015 - Australian Django Developer Conference in Brisbane, July 2015</title>
+    <meta charset="utf-8">
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1" >
+
+    <link href="css/style.css" rel=stylesheet >
+    <link href="css/style-960.css" media="only screen and (min-width: 960px)" type="text/css" rel="stylesheet" />
+
+    <!--[if lt IE 9]>
+      <link href="css/style-960.css" type="text/css" rel="stylesheet" />
+    <![endif]-->
+
+    <script type="text/javascript" src="http://fast.fonts.com/jsapi/c70387ce-91f2-4965-9021-ab70eec030fa.js"></script>
+
+    <script type="text/javascript"> <!-- Analytics Code -->
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-39962564-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+  </head>
+
+  <body>
+
+    <div class="header">
+      <div class="wrap">
+
+        <h1>DjangoCon<span>AU 2015</span></h1>
+
+        <div class="description">
+
+          <p>DjangoCon AU is annual gathering of Django developers in
+            Australia. It is held as a one day mini-conference at the start
+            of PyCon AU.</p>
+          <p>DjangoCon AU content will be Django specific, but there will also
+            be useful Django-related content in the main PyCon program.</p>
+          <p>There will also be Django developers at the sprints held after
+            PyCon.</p>
+
+        </div>
+
+        <ul class="event-details group">
+
+          <li class="dates">
+            <span class="title">Dates</span>
+            <ul>
+              <li>DjangoCon AU: Friday, July 31 2015</li>
+              <li>PyCon AU: August 1-2 2015</li>
+              <li>Sprints: August 3-4 2015</li>
+            </ul>
+          </li>
+
+          <li class="venue">
+            <span class="title">Venue</span>
+            <p>Pullman Brisbane<br />King George Square<br />Brisbane, Queensland</p>
+          </li>
+
+          <li class="twitter">
+            <span class="title">Twitter</span>
+            <a href="https://twitter.com/djangoconau" target="_blank">@DjangoConAU</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="keynote-speaker">
+      <div class="wrap">
+
+        <h2 class="section-title">Keynote Speaker</h2>
+
+        <ul class="speaker-list">
+
+          <li class="speaker group" id="amber-brown">
+            <div class="img-container">
+              <img src="images/amber-brown.png" alt="" />
+            </div>
+            <div class="details">
+              <span class="name">Amber "Hawkie" Brown</span>
+              <a href="https://github.com/hawkowl" target="_blank" class="social-handle">hawkowl</a>
+              <span class="meta">
+                A core developer and release manager of the Twisted project.
+              </span>
+            </div>
+            <p class="description">What Django can learn from Twisted</p>
+            <p class="description">
+              Web frameworks like Django are designed around the traditional
+              request-response cycle — a request comes in, a response is
+              generated, and that is delivered to the client. In the day of
+              "single page" applications, where only sections of the page are
+              updated through requests, doing real-time can be clunky. Twisted,
+              and things that build off it, like Django Channels, might be
+              worth thinking about, and this is what this talk will be about.
+            </p>
+          </li>
+
+        </ul>
+
+
+      </div>
+    </div>
+
+    <div class="speakers" id="speakers">
+      <div class="wrap">
+
+        <h2 class="section-title">Speakers</h2>
+
+        <ul class="speaker-list group">
+
+          <li class="speaker" id="tom-eastman">
+            <div class="img-container">
+              <img src="https://secure.gravatar.com/avatar/7d1bec1dfdc7715565e771cc5fcf15e6.jpg?r=g&amp;s=150&amp;d=mm" alt="" />
+            </div>
+            <div class="details">
+              <span class="name">Tom Eastman</span>
+              <a href="https://github.com/tveastman" target="_blank" class="social-handle">tveastman</a>
+              <span class="meta">The one true way of doing Django deployments...</span>
+            </div>
+            <p class="description">
+              The power and flexibility of Django comes with drawbacks. One of
+              the toughest for project management is working out how to deploy
+              your Django application. If you ask five different authorities on
+              how you should do it, you'll get six different answers.
+            </p>
+          </li>
+
+          <li class="speaker" id="sebastian-vetter">
+            <div class="img-container">
+              <img src="https://secure.gravatar.com/avatar/c65d18a43152b199ee94aad2b79b70c4.jpg?r=g&amp;s=150&amp;d=mm" alt="" />
+            </div>
+            <div class="details">
+              <span class="name">Sebastian Vetter</span>
+              <a href="https://github.com/elbaschid" target="_blank" class="social-handle">elbaschid</a>
+              <span class="meta">Moby and the Beanstalk</span>
+            </div>
+            <p class="description">
+              The popularity of Docker these days is incredible and a lot of
+              people are already using it for their production systems.
+              Although it makes a lot of things much simpler, it's not a silver
+              bullet and comes with some caveats of it's own. This talk will
+              describe the journey of my team at Mobify from a self-hosted VM
+              to an AWS-backed web app deployed using Docker.
+            </p>
+          </li>
+
+          <li class="speaker" id="honza-kral">
+            <div class="img-container">
+              <img src="https://secure.gravatar.com/avatar/ed54b8b23a3761e9c714d1bd2caf14a7.jpg?r=g&amp;s=150&amp;d=mm" alt="" />
+            </div>
+            <div class="details">
+              <span class="name">Honza Král</span>
+              <a href="https://github.com/honzakral" target="_blank" class="social-handle">honzakral</a>
+              <span class="meta">Don't be afraid to search</span>
+            </div>
+            <p class="description">
+              Creating a good search experience for your website is perceived
+              as hard when it doesn't have to be so. Starting with what is a
+              search engine and how it works we will introduce the tools and
+              techniques to help you design a search functionality that will
+              make your users happy.
+            </p>
+          </li>
+
+          <li class="speaker" style="clear: both;" id="christophe-pettus">
+            <div class="img-container">
+              <img src="https://secure.gravatar.com/avatar/6a961946320454083402aab4cde4bba9.jpg?r=g&amp;s=150&amp;d=mm" alt="" />
+            </div>
+            <div class="details">
+              <span class="name">Christophe Pettus</span>
+              <a href="https://github.com/xof" target="_blank" class="social-handle">xof</a>
+              <span class="meta">PostgreSQL in Django 1.8</span>
+            </div>
+            <p class="description">
+              Django 1.8 adds a whole bunch of cool new features that are
+              specifically designed for PostgreSQL. We'll take a quick tour
+              through them, and show when and how you can use them in
+              real-world applications. We'll also talk about how to get the
+              best performance out of PostgreSQL when using the Django ORM.
+            </p>
+          </li>
+
+          <li class="speaker" id="tim-heap">
+            <div class="img-container">
+              <img src="https://secure.gravatar.com/avatar/5a4bb441f58280e8586f5b647128052f.jpg?r=g&amp;s=150&amp;d=mm" alt="" />
+            </div>
+            <div class="details">
+              <span class="name">Tim Heap</span>
+              <a href="https://github.com/timheap" target="_blank" class="social-handle">timheap</a>
+              <span class="meta">Recreating the Pycon 2015 site in under 30 minutes</span>
+            </div>
+            <p class="description">
+              Wagtail is a new CMS built for Django. Making sites in it is easy
+              once you know Django. To prove it, I will recreate the Pycon 2015
+              site as you watch. Live coding - nothing can go wrong!</p>
+          </li>
+
+          <li class="speaker" id="tyson-clugg">
+            <div class="img-container">
+              <img src="https://secure.gravatar.com/avatar/85aad3b34c8f3910720944b7ef9842a8.jpg?r=g&amp;s=150&amp;d=mm" alt="" />
+            </div>
+            <div class="details">
+              <span class="name">Tyson Clugg</span>
+              <a href="https://github.com/tysonclugg" target="_blank" class="social-handle">tysonclugg</a>
+              <span class="meta">Realtime websites with Django and Meteor</span>
+            </div>
+            <p class="description">
+              Create real-time websites and mobile apps that scale using Django
+              and the Meteor JavaScript framework. Push data changes in
+              real-time from your servers to browsers and app users
+              simultaneously without adding overly complex infrastructure to
+              support the real-time updates.
+            </p>
+          </li>
+
+          <li class="speaker" id="alex-hill">
+            <div class="img-container">
+              <img src="https://secure.gravatar.com/avatar/a417f0fceb88350cbea6ab475d4b0903.jpg?r=g&amp;s=150&amp;d=mm" alt="" />
+            </div>
+            <div class="details">
+              <span class="name">Alex Hill</span>
+              <a href="https://github.com/alexhill" target="_blank" class="social-handle">alexhill</a>
+              <span class="meta">Many-to-many, minus the middleman</span>
+            </div>
+            <p class="description">
+              This talk is about an alternative Django ManyToManyField
+              implementation that uses (abuses?) PostgreSQL's full-text search
+              engine instead of an intermediary table to store its
+              relationships. As well as showing off some handy things you can
+              do with this field, we'll talk along the way about full-text
+              search in Postgres, inverted indexes, and how Django's
+              ManyToManyField is implemented.
+            </p>
+          </li>
+
+          <li class="speaker" id="fraser-tweedale">
+            <div class="img-container">
+              <img src="https://secure.gravatar.com/avatar/7c0f9b056604fe541691e18aeb679cf7.jpg?r=g&amp;s=150&amp;d=mm" alt="" />
+            </div>
+            <div class="details">
+              <span class="name">Fraser Tweedale</span>
+              <a href="https://github.com/frasertweedale" target="_blank" class="social-handle">frasertweedale</a>
+              <span class="meta">Integrating Django with Identity Management Systems</span>
+            </div>
+            <p class="description">
+              Most Django developers are familiar with authentication and
+              authorisation on the open web, but the requirements and
+              technologies used inside companies and large organisations are
+              different. This talk will demonstrate how Django applications can
+              be integrated with an identity management system to meet business
+              requirements while providing a positive user experience.
+            </p>
+          </li>
+
+          <li class="speaker" id="richard-shea">
+            <div class="img-container">
+              <img src="https://secure.gravatar.com/avatar/93960b966dc4c4a1db71b494f7b4defa.jpg?r=g&amp;s=150&amp;d=mm" alt="" />
+            </div>
+            <div class="details">
+              <span class="name">Richard Shea</span>
+              <a href="https://github.com/shearichard" target="_blank" class="social-handle">shearichard</a>
+              <span class="meta">Stop and smell the Djangos</span>
+            </div>
+            <p class="description">
+              A great strength of Django is how much functionality there is
+              baked in without the developer doing anything to obtain it. A
+              corollary of this is that there’s a great deal of functionality
+              in Django which the average developer is hardly aware exists. The
+              happy dev is pleased to ignore the problems that have been solved
+              for them as their requests rush in and their responses rush out.
+            </p>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="tickets">
+      <div class="wrap">
+
+        <h2 class="section-title">Tickets</h2>
+
+        <ul class="ticket-options group">
+
+          <li class="option group">
+            <span class="name">DjangoCon AU Only</span>
+            <p class="description">Special Friday-only Miniconf ticket. Does not include PyCon AU.</p>
+            <span class="price"><span class="currency">AU&#36;</span>50</span>
+          </li>
+
+          <li class="option group">
+            <span class="name">PyCon AU Enthusiast + DjangoCon AU</span>
+            <p class="description">Discounted rates for enthusiasts paying out of their own pocket.</p>
+            <span class="price"><span class="currency">AU&#36;</span>290</span>
+          </li>
+
+          <li class="option group">
+            <span class="name">PyCon AU Professional</span>
+            <p class="description">If your company is paying, or you can claim as a tax deduction. Includes DjangoCon AU Miniconf.</p>
+            <span class="price"><span class="currency">AU&#36;</span>550</span>
+          </li>
+
+          <li class="option group">
+            <span class="name">PyCon AU Contributor</span>
+            <p class="description">Give a little extra to help with financial aid for other attendees. Includes DjangoCon AU Miniconf.</p>
+            <span class="price"><span class="currency">AU&#36;</span>900</span>
+          </li>
+
+        </ul>
+
+        <p style="text-align: center; margin: 10px 0 20px 0;">Buy tickets from the PyCon AU website</p>
+        <a href="http://2015.pycon-au.org/register/prices" target="_blank" class="button">Buy Tickets</a>
+
+      </div>
+    </div>
+
+    <div class="contact">
+      <div class="wrap">
+
+        <h2 class="section-title">Contact</h2>
+
+        <ul>
+            <li>Russell Keith-Magee <a href="mailto:russell@djangoproject.com" target="_blank">russell@djangoproject.com</a></li>
+            <li>Announcements mailing list: <a href="http://groups.google.com/group/djangocon-au" target="_blank">DjangoCon AU Announcements Group</a></li>
+            <li>Twitter: <a href="https://twitter.com/djangoconau" target="_blank">@DjangoConAU</a></li>
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer group">
+      <div class="wrap">
+
+        <a href="http://commons.wikimedia.org/wiki/File:Brisbane_Skyline_Panorama_from_South_Bank.jpg" target="_blank" class="image-credit">"Panorama of the Brisbane skyline, taken from South Bank Parklands" © 2009 Michael Hendy, used under a Creative Commons Attribution-ShareAlike 2.5 Australia license.</a>
+        <a href="http://www.thecut.net.au/" target="_blank" class="the-cut">Designed by The Cut, Perth.</a>
+
+      </div>
+    </div>
+
+  </body>
+</html>
